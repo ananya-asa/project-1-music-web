@@ -1,0 +1,150 @@
+
+/* Global reset and base styles */
+body {
+    background-color: rgb(181, 109, 16);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+
+
+* {
+    box-sizing: border-box;
+}
+
+/* Navigation Bar */
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: aliceblue;
+    padding: 0 20px;
+}
+
+nav ul li {
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+/* Spotify brand styling */
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.8rem;
+    margin-right: auto;
+}
+
+.brand img {
+    width: 44px;
+    margin-right: 10px;
+}
+
+/* Main container */
+.container {
+    min-height: 50vh;
+    background-color: black;
+    color: rgb(2, 122, 226);
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('baby.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-direction: column;
+}
+
+/* Bottom section with controls */
+.bottom {
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    bottom: 0;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Icons */
+.icons {
+    margin-top: 14px;
+}
+
+#myProgressBar {
+    width: 80vh;
+    cursor: pointer;
+}
+
+/* Song items list */
+.songItem {
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 80%;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+    padding: 0 15px;
+}
+
+.songitemcontainer {
+    margin-top: 74px;
+}
+
+/* Song item image */
+.songItem img {
+    width: 43px;
+    height: 43px;
+    border-radius: 34px;
+}
+
+/* Timestamp and play icon */
+.timestamp {
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.timestamp i {
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+/* Song info animation */
+.songInfo {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.songInfo img {
+    width: 42px;
+    margin-right: 10px;
+}
