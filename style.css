@@ -1,5 +1,5 @@
 
-/* Global reset and base styles */
+
 body {
     background-color: rgb(181, 109, 16);
     margin: 0;
@@ -7,6 +7,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 
 }
+
+
 body {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
@@ -25,7 +27,7 @@ body {
     box-sizing: border-box;
 }
 
-/* Navigation Bar */
+
 nav {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -45,7 +47,7 @@ nav ul li {
     cursor: pointer;
 }
 
-/* Spotify brand styling */
+
 .brand {
     display: flex;
     align-items: center;
@@ -59,7 +61,7 @@ nav ul li {
     margin-right: 10px;
 }
 
-/* Main container */
+
 .container {
     min-height: 50vh;
     background-color: black;
@@ -77,7 +79,7 @@ nav ul li {
     flex-direction: column;
 }
 
-/* Bottom section with controls */
+
 .bottom {
     position: sticky;
     height: 130px;
@@ -90,7 +92,7 @@ nav ul li {
     flex-direction: column;
 }
 
-/* Icons */
+
 .icons {
     margin-top: 14px;
 }
@@ -100,7 +102,7 @@ nav ul li {
     cursor: pointer;
 }
 
-/* Song items list */
+
 .songItem {
     height: 50px;
     display: flex;
@@ -118,14 +120,13 @@ nav ul li {
     margin-top: 74px;
 }
 
-/* Song item image */
 .songItem img {
     width: 43px;
     height: 43px;
     border-radius: 34px;
 }
 
-/* Timestamp and play icon */
+
 .timestamp {
     margin: 0 10px;
     display: flex;
@@ -137,7 +138,7 @@ nav ul li {
     cursor: pointer;
 }
 
-/* Song info animation */
+
 .songInfo {
     display: flex;
     align-items: center;
